@@ -1,0 +1,50 @@
+.clock{
+    height: 50vh;
+    width: 50vh;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+div.number{
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 1.5em;
+}
+div.number1{  transform: rotate(30deg);  }
+div.number2{  transform: rotate(60deg);  }
+div.number3{  transform: rotate(90deg);  }
+div.number4{  transform: rotate(120deg);  }
+div.number5{  transform: rotate(150deg);  }
+div.number6{  transform: rotate(180deg);  }
+div.number7{  transform: rotate(210deg);  }
+div.number8{  transform: rotate(240deg);  }
+div.number9{  transform: rotate(270deg);  }
+div.number10{  transform: rotate(300deg);  }
+div.number11{  transform: rotate(330deg);  }
+#hourhand , #minhand , #sechand{
+    transform-origin: bottom;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+div#hourhand{
+    height: 30%;
+    width: 8px;
+}
+div#minhand{
+    height: 35%;
+    width: 5px;
+}
+div#sechand{
+    height: 40%;
+    width: 2px;
+}
