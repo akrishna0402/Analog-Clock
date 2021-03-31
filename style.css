@@ -1,12 +1,16 @@
+body{
+    background-color: #212121;
+}
 .clock{
     height: 50vh;
     width: 50vh;
-    background-color: black;
+    background-color: #212121;
     border-radius: 50%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20vh;
+    box-shadow: 6px  6px 18px  rgb(0,0,0) , -3px -3px 12px rgba(255,255,255,0.6);
 }
 div.number{
     width: 100%;
@@ -14,7 +18,7 @@ div.number{
     color: white;
     position: absolute;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 div.number1{  transform: rotate(30deg);  }
 div.number2{  transform: rotate(60deg);  }
@@ -47,4 +51,14 @@ div#minhand{
 div#sechand{
     height: 40%;
     width: 2px;
+}
+.center{
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: black;
+    position: absolute;
+    left: 47%;
+    bottom: 45%;
 }
